@@ -479,7 +479,8 @@
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #ececec;
+		background: url("../../images/footer.png");
+		background-size: cover;
 	}
 
 	#contact form {
@@ -499,6 +500,9 @@
 
 	#contact .column.social {
 		background: #22313F;
+		background: rgb(34, 49, 63); /* Fall-back for browsers that don't
+		support rgba */
+		background: rgba(34, 49, 63, .7);
 		color: white;
 	}
 
